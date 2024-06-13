@@ -252,6 +252,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    color: #f3f3f3;
     background-color: var(--color-bg-primary);
     display: none;
     justify-content: center;
@@ -331,6 +332,11 @@ body {
   .hero__img {
     width: 280px;
     justify-self: center;
+    transition: transform .2s;
+    margin: auto;
+  }
+  .hero__img{
+    transform: scale(1.5);
   }
 }
 
@@ -476,6 +482,8 @@ body {
 
 .project__img {
   margin-bottom: 2rem;
+  display: flex;
+  align-items: center; 
 }
 
 .project__title {
@@ -750,5 +758,9 @@ body {
 }
 .small-btn:hover{
   color: #f3f3f3;
-  
+  background-color: #151515;
+}
+#srvc{
+  display: flex;
+  justify-content: center;
 }

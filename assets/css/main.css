@@ -656,7 +656,7 @@ body {
 --------------------------------------------------------------*/
 
 /* Medium devices*/
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 300px) {
   .service__wrapper {
     grid-template-columns: repeat(2, 250px);
     justify-content: center;
@@ -687,7 +687,7 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 300px) {
   .hero__wrapper {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
